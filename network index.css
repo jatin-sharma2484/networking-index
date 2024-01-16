@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Carter+One&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+#card1{
+    margin-left: 9vw;
+}
+nav{
+    width: 100%;
+    height: 60px;
+    display: flex;
+}
+.firstsection{
+    width: 30%;
+    background-color: aqua;
+}
+.secondsection{
+    width: 70%;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+.secondsection ul{
+    display: flex;
+    justify-content: space-around;
+}
+.secondsection ul li{
+    margin: 0px 4vw;
+    list-style: none;
+    font-size: 1.5rem;
+}
+.intro{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(248, 248, 248);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.intro marquee{
+    font-size: 4rem;
+    font-family: 'Bungee Inline', cursive;
+    color: red;
+}
+.typeof{
+    width: 100%;
+    height: 80px;
+    background-color: yellowgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+.typeof span{
+    font-size: 1.5rem;
+    word-spacing: 8px;
+    letter-spacing: 3px;
+}
+.main-section{
+    background-color: yellow;
+    display: flex;
+    background-image: url(crypto.jpg);
+    background-attachment: fixed;
+}
+.card{
+    background-color: aliceblue;
+    border-radius: 5px;
+    margin: 30px;
+}
+.card-body{
+    padding: 22px;
+}
+.card-title{
+    font-size: 2vw;
+}
+.card-text{
+    margin: 30px 0px;
+}
+.btn{
+    background-color: blue;
+    border-radius: 4px;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: rgb(0, 0, 190);
+    color: rgb(184, 181, 181);
+}
+.card-img-top{
+    width: 22.66vw;
+    border-radius: 24px;
+    height: 18vw;
+    margin-left: 0.5px;
+}
